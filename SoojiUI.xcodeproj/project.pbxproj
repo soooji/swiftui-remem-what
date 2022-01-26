@@ -17,6 +17,12 @@
 		04055781279E4B710004B3F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04055757279E4B700004B3F2 /* ContentView.swift */; };
 		04055782279E4B710004B3F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04055758279E4B710004B3F2 /* Assets.xcassets */; };
 		04055783279E4B710004B3F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04055758279E4B710004B3F2 /* Assets.xcassets */; };
+		0443213627A07CF300AD460F /* CardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443213527A07CF300AD460F /* CardItem.swift */; };
+		0443213727A07CF300AD460F /* CardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443213527A07CF300AD460F /* CardItem.swift */; };
+		0443213927A0ED3A00AD460F /* NewReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443213827A0ED3A00AD460F /* NewReminder.swift */; };
+		0443213A27A0ED3A00AD460F /* NewReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443213827A0ED3A00AD460F /* NewReminder.swift */; };
+		044DBE42279F8F3D002CBAE6 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044DBE41279F8F3D002CBAE6 /* Header.swift */; };
+		044DBE43279F8F3D002CBAE6 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044DBE41279F8F3D002CBAE6 /* Header.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,9 @@
 		04055776279E4B710004B3F2 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0405577A279E4B710004B3F2 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		0405577C279E4B710004B3F2 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		0443213527A07CF300AD460F /* CardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardItem.swift; sourceTree = "<group>"; };
+		0443213827A0ED3A00AD460F /* NewReminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReminder.swift; sourceTree = "<group>"; };
+		044DBE41279F8F3D002CBAE6 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +109,9 @@
 				04055756279E4B700004B3F2 /* SoojiUIApp.swift */,
 				04055757279E4B700004B3F2 /* ContentView.swift */,
 				04055758279E4B710004B3F2 /* Assets.xcassets */,
+				044DBE41279F8F3D002CBAE6 /* Header.swift */,
+				0443213527A07CF300AD460F /* CardItem.swift */,
+				0443213827A0ED3A00AD460F /* NewReminder.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -300,6 +312,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				04055780279E4B710004B3F2 /* ContentView.swift in Sources */,
+				044DBE42279F8F3D002CBAE6 /* Header.swift in Sources */,
+				0443213627A07CF300AD460F /* CardItem.swift in Sources */,
+				0443213927A0ED3A00AD460F /* NewReminder.swift in Sources */,
 				0405577E279E4B710004B3F2 /* SoojiUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +324,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				04055781279E4B710004B3F2 /* ContentView.swift in Sources */,
+				044DBE43279F8F3D002CBAE6 /* Header.swift in Sources */,
+				0443213727A07CF300AD460F /* CardItem.swift in Sources */,
+				0443213A27A0ED3A00AD460F /* NewReminder.swift in Sources */,
 				0405577F279E4B710004B3F2 /* SoojiUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -479,7 +497,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sooji.SoojiUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sooji.rememwhat;
 				PRODUCT_NAME = SoojiUI;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -509,7 +527,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sooji.SoojiUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sooji.rememwhat;
 				PRODUCT_NAME = SoojiUI;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
